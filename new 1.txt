@@ -9,3 +9,10 @@ Jeste inzyniere
 
 
 W tym img pokazana jest obrazowa baza danych mojej aplikacji jeszce bez relacji :)
+
+
+
+
+Teraz commit przez Visual studio :) 
+
+Kolejne zmiany moc przemiany :)
