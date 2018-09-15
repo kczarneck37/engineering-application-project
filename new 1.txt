@@ -5,3 +5,7 @@ To jest przyklad i proba commitu
 pierwsze kroki za ploty ! :)
 
 Jeste inzyniere
+
+
+
+W tym img pokazana jest obrazowa baza danych mojej aplikacji jeszce bez relacji :)
