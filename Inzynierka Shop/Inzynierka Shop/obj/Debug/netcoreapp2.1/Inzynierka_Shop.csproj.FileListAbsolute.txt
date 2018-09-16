@@ -38,6 +38,7 @@ C:\Users\Buntownik\source\repos\Inzynierka Shop\Inzynierka Shop\obj\Debug\netcor
 C:\Users\Buntownik\source\repos\Inzynierka Shop\Inzynierka Shop\obj\Debug\netcoreapp2.1\Razor\Views\Produkts\Details.g.cshtml.cs
 C:\Users\Buntownik\source\repos\Inzynierka Shop\Inzynierka Shop\obj\Debug\netcoreapp2.1\Razor\Views\Produkts\Edit.g.cshtml.cs
 C:\Users\Buntownik\source\repos\Inzynierka Shop\Inzynierka Shop\obj\Debug\netcoreapp2.1\Razor\Views\Produkts\Index.g.cshtml.cs
+<<<<<<< HEAD
 C:\Users\Buntownik\Documents\GitHub\engineering-application-project\Inzynierka Shop\Inzynierka Shop\bin\Debug\netcoreapp2.1\Inzynierka_Shop.deps.json
 C:\Users\Buntownik\Documents\GitHub\engineering-application-project\Inzynierka Shop\Inzynierka Shop\bin\Debug\netcoreapp2.1\Inzynierka_Shop.runtimeconfig.json
 C:\Users\Buntownik\Documents\GitHub\engineering-application-project\Inzynierka Shop\Inzynierka Shop\bin\Debug\netcoreapp2.1\Inzynierka_Shop.runtimeconfig.dev.json
@@ -78,3 +79,5 @@ C:\Users\Buntownik\Documents\GitHub\engineering-application-project\Inzynierka S
 C:\Users\Buntownik\Documents\GitHub\engineering-application-project\Inzynierka Shop\Inzynierka Shop\obj\Debug\netcoreapp2.1\Inzynierka_Shop.dll
 C:\Users\Buntownik\Documents\GitHub\engineering-application-project\Inzynierka Shop\Inzynierka Shop\obj\Debug\netcoreapp2.1\Inzynierka_Shop.pdb
 C:\Users\Buntownik\Documents\GitHub\engineering-application-project\Inzynierka Shop\Inzynierka Shop\obj\Debug\netcoreapp2.1\Inzynierka_Shop.csproj.CopyComplete
+=======
+>>>>>>> e2d6260e9c6a2c5e7a71057e662bf6e74d476055

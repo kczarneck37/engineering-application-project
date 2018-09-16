@@ -12264,11 +12264,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Buntownik\\Documents\\GitHub\\engineering-application-project\\Inzynierka Shop\\Inzynierka Shop\\Inzynierka_Shop.csproj",
       "projectName": "Inzynierka_Shop",
       "projectPath": "C:\\Users\\Buntownik\\Documents\\GitHub\\engineering-application-project\\Inzynierka Shop\\Inzynierka Shop\\Inzynierka_Shop.csproj",
       "packagesPath": "C:\\Users\\Buntownik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Buntownik\\Documents\\GitHub\\engineering-application-project\\Inzynierka Shop\\Inzynierka Shop\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Buntownik\\source\\repos\\Inzynierka Shop\\Inzynierka Shop\\Inzynierka_Shop.csproj",
+      "projectName": "Inzynierka_Shop",
+      "projectPath": "C:\\Users\\Buntownik\\source\\repos\\Inzynierka Shop\\Inzynierka Shop\\Inzynierka_Shop.csproj",
+      "packagesPath": "C:\\Users\\Buntownik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Buntownik\\source\\repos\\Inzynierka Shop\\Inzynierka Shop\\obj\\",
+>>>>>>> e2d6260e9c6a2c5e7a71057e662bf6e74d476055
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
