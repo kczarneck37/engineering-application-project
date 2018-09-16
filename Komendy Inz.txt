@@ -1,0 +1,10 @@
+https://localhost:44349/Produkts/
+
+
+https://localhost:44349/Helloworld/
+
+https://localhost:44349/Helloworld/Welcome
+
+https://localhost:44349/Helloworld/Welcome/14?name=Duchu&numtimes=1
+
+https://localhost:44349/Helloworld/Welcome/14?name=Duchu&numtimes=1235
