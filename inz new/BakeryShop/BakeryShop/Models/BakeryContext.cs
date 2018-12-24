@@ -14,5 +14,6 @@ namespace BakeryShop.Models
         }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Produkt> Produkty { get; set; }
     }
 }

@@ -134,6 +134,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProduktyController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -141,9 +142,14 @@
     <Compile Include="Migrations\201812151203313_Migration1.Designer.cs">
       <DependentUpon>201812151203313_Migration1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812241047462_Migration11.cs" />
+    <Compile Include="Migrations\201812241047462_Migration11.Designer.cs">
+      <DependentUpon>201812241047462_Migration11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BakeryContext.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Produkt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +194,11 @@
     <Content Include="Views\Employees\Edit.cshtml" />
     <Content Include="Views\Employees\Detail.cshtml" />
     <Content Include="Views\Employees\Delete.cshtml" />
+    <Content Include="Views\Produkty\Create.cshtml" />
+    <Content Include="Views\Produkty\Delete.cshtml" />
+    <Content Include="Views\Produkty\Detail.cshtml" />
+    <Content Include="Views\Produkty\Edit.cshtml" />
+    <Content Include="Views\Produkty\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -208,6 +219,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812151203313_Migration1.resx">
       <DependentUpon>201812151203313_Migration1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812241047462_Migration11.resx">
+      <DependentUpon>201812241047462_Migration11.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
