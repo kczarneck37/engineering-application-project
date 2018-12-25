@@ -84,3 +84,6 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.csproj.CopyComplete
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.pdb
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.csprojAssemblyReference.cache
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Migration12.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Migration13.resources

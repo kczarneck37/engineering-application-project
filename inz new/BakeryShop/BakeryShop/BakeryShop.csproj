@@ -132,6 +132,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProduktyController.cs" />
@@ -146,8 +147,17 @@
     <Compile Include="Migrations\201812241047462_Migration11.Designer.cs">
       <DependentUpon>201812241047462_Migration11.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812251751072_Migration12.cs" />
+    <Compile Include="Migrations\201812251751072_Migration12.Designer.cs">
+      <DependentUpon>201812251751072_Migration12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812251810449_Migration13.cs" />
+    <Compile Include="Migrations\201812251810449_Migration13.Designer.cs">
+      <DependentUpon>201812251810449_Migration13.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BakeryContext.cs" />
+    <Compile Include="Models\ClientController.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Produkt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -199,6 +209,11 @@
     <Content Include="Views\Produkty\Detail.cshtml" />
     <Content Include="Views\Produkty\Edit.cshtml" />
     <Content Include="Views\Produkty\Index.cshtml" />
+    <Content Include="Views\Client\Create.cshtml" />
+    <Content Include="Views\Client\Delete.cshtml" />
+    <Content Include="Views\Client\Detail.cshtml" />
+    <Content Include="Views\Client\Edit.cshtml" />
+    <Content Include="Views\Client\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -222,6 +237,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812241047462_Migration11.resx">
       <DependentUpon>201812241047462_Migration11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251751072_Migration12.resx">
+      <DependentUpon>201812251751072_Migration12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812251810449_Migration13.resx">
+      <DependentUpon>201812251810449_Migration13.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
