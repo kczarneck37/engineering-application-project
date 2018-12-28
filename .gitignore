@@ -1,1 +1,4 @@
 /inz new/BakeryShop/.vs/BakeryShop/v15/Server/sqlite3/db.lock
+/inz new/BakeryShop/.vs/BakeryShop/v15/Server/sqlite3/*.ide
+/inz new/BakeryShop/.vs/BakeryShop/v15/Server/sqlite3/*.ide-shm
+/inz new/BakeryShop/.vs/BakeryShop/v15/Server/sqlite3/*.ide-wal
