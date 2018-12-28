@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
-using System.Linq;
-using System.Web;
 
 namespace BakeryShop.Models
 {
-    public class BakeryContext : DbContext  
+    public class ApplicationUser : IdentityUser
+    {
+    }
+
+    public class BakeryContext : IdentityDbContext<ApplicationUser>
     {
         public BakeryContext() : base("BakeryShopContext")
         {
@@ -16,5 +17,6 @@ namespace BakeryShop.Models
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Produkt> Produkty { get; set; }
         public DbSet<Client> Client { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
