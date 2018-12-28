@@ -2,27 +2,27 @@ namespace BakeryShop.Migrations
 {
     using System.Data.Entity.Migrations;
 
-    public partial class Migration1 : DbMigration
+    public partial class Migration13 : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.Employees",
+                "dbo.Clients",
                 c => new
                     {
-                        EmployeeId = c.Int(nullable: false, identity: true),
+                        ClientId = c.Int(nullable: false, identity: true),
                         Name = c.String(),
                         Email = c.String(),
                         Phone = c.String(),
                         Addres = c.String(),
                     })
-                .PrimaryKey(t => t.EmployeeId);
+                .PrimaryKey(t => t.ClientId);
             
         }
         
         public override void Down()
         {
-            DropTable("dbo.Employees");
+            DropTable("dbo.Clients");
         }
     }
 }

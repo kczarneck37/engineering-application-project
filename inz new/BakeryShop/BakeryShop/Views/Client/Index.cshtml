@@ -1,10 +1,10 @@
-﻿@model IEnumerable<BakeryShop.Models.Employee>
+﻿@model IEnumerable<BakeryShop.Models.Client>
 
 @{
-    ViewBag.Title = "Employees";
+    ViewBag.Title = "Clients";
 }
 
-<h2>Our Employees</h2>
+<h2>Our Clients</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -41,9 +41,9 @@
                 @Html.DisplayFor(x => emp.Addres)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = emp.EmployeeId }) |
-                @Html.ActionLink("Detail", "Detail", new { id = emp.EmployeeId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = emp.EmployeeId })
+                @Html.ActionLink("Edit", "Edit", new { id = emp.ClientId }) |
+                @Html.ActionLink("Detail", "Detail", new { id = emp.ClientId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = emp.ClientId })
             </td>
         </tr>
     }

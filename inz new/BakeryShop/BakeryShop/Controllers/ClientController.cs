@@ -7,15 +7,15 @@ using BakeryShop.Models;
 
 namespace BakeryShop.Controllers
 {
-    public class ProduktyController : Controller
+    public class ClientController : Controller
     {
         private readonly BakeryContext _context = new BakeryContext();
 
-        // GET: Produkty
+        // GET: Client
         public ActionResult Index()
         {
-            var Produkty = _context.Produkty.ToList();
-            return View(Produkty);
+            var Client = _context.Client.ToList();
+            return View(Client);
         }
 
         public ActionResult Create()
@@ -24,15 +24,15 @@ namespace BakeryShop.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(Produkt Produkt)
+        public ActionResult Create(Client Client)
         {
             if (ModelState.IsValid)
             {
-                _context.Produkty.Add(Produkt);
+                _context.Client.Add(Client);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(Produkt);
+            return View(Client);
         }
 
         public ActionResult Edit(int? id)
@@ -42,25 +42,25 @@ namespace BakeryShop.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var Produkt = _context.Produkty.SingleOrDefault(e => e.ProduktId == id);
-            if (Produkt == null)
+            var Client = _context.Client.SingleOrDefault(e => e.ClientId == id);
+            if (Client == null)
             {
                 return HttpNotFound();
             }
-            return View(Produkt);
+            return View(Client);
         }
 
         [HttpPost]
-        public ActionResult Edit(Produkt Produkt)
+        public ActionResult Edit(Client Client)
         {
             if (ModelState.IsValid)
             {
-                _context.Entry(Produkt).State = EntityState.Modified;
+                _context.Entry(Client).State = EntityState.Modified;
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(Produkt);
+            return View(Client);
         }
 
         public ActionResult Detail(int? id)
@@ -70,12 +70,12 @@ namespace BakeryShop.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var Produkt = _context.Produkty.SingleOrDefault(e => e.ProduktId == id);
-            if (Produkt == null)
+            var Client = _context.Client.SingleOrDefault(e => e.ClientId == id);
+            if (Client == null)
             {
                 return HttpNotFound();
             }
-            return View(Produkt);
+            return View(Client);
         }
 
         public ActionResult Delete(int? id)
@@ -85,19 +85,19 @@ namespace BakeryShop.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var Produkt = _context.Produkty.SingleOrDefault(e => e.ProduktId == id);
-            if (Produkt == null)
+            var Client = _context.Client.SingleOrDefault(e => e.ClientId == id);
+            if (Client == null)
             {
                 return HttpNotFound();
             }
-            return View(Produkt);
+            return View(Client);
         }
 
         [HttpPost]
         public ActionResult Delete(int id)
         {
-            var Produkt = _context.Produkty.SingleOrDefault(x => x.ProduktId == id);
-            _context.Produkty.Remove(Produkt ?? throw new InvalidOperationException());
+            var Client = _context.Client.SingleOrDefault(x => x.ClientId == id);
+            _context.Client.Remove(Client ?? throw new InvalidOperationException());
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
