@@ -1,50 +1,205 @@
-﻿@model IEnumerable<BakeryShop.Models.Employee>
+﻿
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Bakery</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!--
+    CSS
+    ============================================= -->
+    <link rel="stylesheet" href="~/Content/linearicons.css">
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/bootstrap.css">
+    <link rel="stylesheet" href="~/Content/magnific-popup.css">
+    <link rel="stylesheet" href="~/Content/nice-select.css">
+    <link rel="stylesheet" href="~/Content/animate.min.css">
+    <link rel="stylesheet" href="~/Content/jquery-ui.css">
+    <link rel="stylesheet" href="~/Content/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/main.css">
+</head>
+<body>
+    <!-- End banner Area -->
+    <!-- Start team Area -->
+    <section class="team-area section-gap" id="team">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-70 col-lg-8">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Meet Our Qualified Chefs</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 single-team">
+                <div class="thumb">
+                    <img class="img-fluid" src="img/t2.jpg" alt="">
+                    <div class="align-items-center justify-content-center d-flex">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="meta-text mt-30 text-center">
+                    <h4>Karol Czarnecki</h4>
+                    <p>Head chef)</p>
+                </div>
 
-@{
-    ViewBag.Title = "Employees";
-}
+            </div>
 
-<h2>Our Employees</h2>
+        </div>
+        @model IEnumerable<BakeryShop.Models.Employee>
+        @{
+            ViewBag.Title = "Employees";
+        }
+        <section class="team-area section-gap" id="team">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-70 col-lg-8">
+                        <div class="title text-center">
+                            <h1 class="mb-10">And Our Qualified Employees</h1>
+                            <p>Who do best to make you happy.</p>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    @Html.ActionLink("Create New", "Create")
+                </p>
+                <table class="table">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(x => x.Name)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(x => x.Email)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(x => x.Phone)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(x => x.Addres)
+                        </th>
+                    </tr>
+                    @foreach (var emp in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(x => emp.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(x => emp.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(x => emp.Phone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(x => emp.Addres)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = emp.EmployeeId }) |
+                                @Html.ActionLink("Detail", "Detail", new { id = emp.EmployeeId }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = emp.EmployeeId })
+                            </td>
+                        </tr>
+                    }
+                </table>
+        </section>
+    <!-- End team Area -->
+    <!-- Start item-category Area -->
+    <section class="item-category-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 pb-80 header-text text-center">
+                    <h1 class="pb-10">Category of available items</h1>
+                    <p>
+                        They are grilling celebrities in their own right.
+                    </p>
+                </div>
+            </div>
+            
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-cat-item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="img/c2.jpg" alt="">
+                        </div>
+                        <a href="#"><h4>Bread</h4></a>
+                        <p>
+                            inappropriate behavior is often laughed off as “boys will be.
+                        </p>
+                    </div>
+                </div>
+    </section>
+    <!-- End item-category Area -->
+    <!-- Start home-about Area -->
+    <section class="home-about-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h6 class="text-uppercase">Brand new app to blow your mind</h6>
+                    <h1>
+                        We’ve baked every item
+                        from the core of our heart to serve you
+                    </h1>
+                    <p>
+                        <span>We are here to listen from you deliver exellence by any means</span>
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                    </p>
+                    <a class="primary-btn squire mx-auto mt-20" href="#">Get Started Now</a>
+                </div>
+            </div>
+        </div>
+        <img class="about-img" src="img/about-img.png" alt="">
+    </section>
+                <div class="col-lg-12">
+                    <p class="footer-text">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->
+    <script src="~/Scripts/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="~/Scripts/easing.min.js"></script>
+    <script src="~/Scripts/hoverIntent.js"></script>
+    <script src="~/Scripts/superfish.min.js"></script>
+    <script src="~/Scripts/jquery.ajaxchimp.min.js"></script>
+    <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <script src="~/Scripts/owl.carousel.min.js"></script>
+    <script src="~/Scripts/jquery.nice-select.min.js"></script>
+    <script src="~/Scripts/mail-script.js"></script>
+    <script src="~/Scripts/main.js"></script>
+</body>
+</html>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(x => x.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(x => x.Email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(x => x.Phone)
-        </th>
-        <th>
-            @Html.DisplayNameFor(x => x.Addres)
-        </th>
-    </tr>
-    @foreach (var emp in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(x => emp.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(x => emp.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(x => emp.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(x => emp.Addres)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = emp.EmployeeId }) |
-                @Html.ActionLink("Detail", "Detail", new { id = emp.EmployeeId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = emp.EmployeeId })
-            </td>
-        </tr>
-    }
-</table> 
+
+
+
+
+
+
+
+
+
