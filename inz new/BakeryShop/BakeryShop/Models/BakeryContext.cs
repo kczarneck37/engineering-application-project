@@ -15,10 +15,11 @@ namespace BakeryShop.Models
         }
 
         public DbSet<Employee> Employees { get; set; }
-        public DbSet<Produkt> Produkty { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<Client> Client { get; set; }
 #pragma warning disable CS0114 // Member hides inherited member; missing override keyword
         public DbSet<User> Users { get; set; }
 #pragma warning restore CS0114 // Member hides inherited member; missing override keyword
+        public DbSet<Order>Orders{ get; set; }
     }
 }

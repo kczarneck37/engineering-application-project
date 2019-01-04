@@ -46,6 +46,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
+    <Reference Include="AutoMapper, Version=8.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.8.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="CustomMarshalers" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
@@ -107,6 +110,9 @@
     <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -182,7 +188,8 @@
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ProduktyController.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
@@ -216,13 +223,50 @@
     <Compile Include="Migrations\201812291951333_HideCategory.Designer.cs">
       <DependentUpon>201812291951333_HideCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901021644161_Order.cs" />
+    <Compile Include="Migrations\201901021644161_Order.Designer.cs">
+      <DependentUpon>201901021644161_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901021724489_Order1.cs" />
+    <Compile Include="Migrations\201901021724489_Order1.Designer.cs">
+      <DependentUpon>201901021724489_Order1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901021728294_Order2.cs" />
+    <Compile Include="Migrations\201901021728294_Order2.Designer.cs">
+      <DependentUpon>201901021728294_Order2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901021807263_Order3.cs" />
+    <Compile Include="Migrations\201901021807263_Order3.Designer.cs">
+      <DependentUpon>201901021807263_Order3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901021812183_Order4.cs" />
+    <Compile Include="Migrations\201901021812183_Order4.Designer.cs">
+      <DependentUpon>201901021812183_Order4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901021839091_Order5.cs" />
+    <Compile Include="Migrations\201901021839091_Order5.Designer.cs">
+      <DependentUpon>201901021839091_Order5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901022026445_Order6.cs" />
+    <Compile Include="Migrations\201901022026445_Order6.Designer.cs">
+      <DependentUpon>201901022026445_Order6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901031906371_ProductChange.cs" />
+    <Compile Include="Migrations\201901031906371_ProductChange.Designer.cs">
+      <DependentUpon>201901031906371_ProductChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901031915416_ProductChange1.cs" />
+    <Compile Include="Migrations\201901031915416_ProductChange1.Designer.cs">
+      <DependentUpon>201901031915416_ProductChange1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModel.cs" />
     <Compile Include="Models\BakeryContext.cs" />
-    <Compile Include="Models\ClientController.cs" />
+    <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\Produkt.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -270,11 +314,11 @@
     <Content Include="Views\Employees\Edit.cshtml" />
     <Content Include="Views\Employees\Detail.cshtml" />
     <Content Include="Views\Employees\Delete.cshtml" />
-    <Content Include="Views\Produkty\Create.cshtml" />
-    <Content Include="Views\Produkty\Delete.cshtml" />
-    <Content Include="Views\Produkty\Detail.cshtml" />
-    <Content Include="Views\Produkty\Edit.cshtml" />
-    <Content Include="Views\Produkty\Index.cshtml" />
+    <Content Include="Views\Product\Create.cshtml" />
+    <Content Include="Views\Product\Delete.cshtml" />
+    <Content Include="Views\Product\Detail.cshtml" />
+    <Content Include="Views\Product\Edit.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Client\Create.cshtml" />
     <Content Include="Views\Client\Delete.cshtml" />
     <Content Include="Views\Client\Detail.cshtml" />
@@ -292,7 +336,11 @@
     <Content Include="Views\User\AddOrEdit.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
-    <Content Include="Views\Produkty\Index-Admin.cshtml" />
+    <Content Include="Views\Order\Index.cshtml" />
+    <Content Include="Views\Order\Create.cshtml" />
+    <Content Include="Views\Order\Delete.cshtml" />
+    <Content Include="Views\Order\Edit.cshtml" />
+    <Content Include="Views\Order\Detail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -331,6 +379,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812291951333_HideCategory.resx">
       <DependentUpon>201812291951333_HideCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021644161_Order.resx">
+      <DependentUpon>201901021644161_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021724489_Order1.resx">
+      <DependentUpon>201901021724489_Order1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021728294_Order2.resx">
+      <DependentUpon>201901021728294_Order2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021807263_Order3.resx">
+      <DependentUpon>201901021807263_Order3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021812183_Order4.resx">
+      <DependentUpon>201901021812183_Order4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021839091_Order5.resx">
+      <DependentUpon>201901021839091_Order5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901022026445_Order6.resx">
+      <DependentUpon>201901022026445_Order6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901031906371_ProductChange.resx">
+      <DependentUpon>201901031906371_ProductChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901031915416_ProductChange1.resx">
+      <DependentUpon>201901031915416_ProductChange1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

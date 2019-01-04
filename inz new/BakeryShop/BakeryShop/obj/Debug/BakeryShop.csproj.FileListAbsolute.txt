@@ -1,4 +1,3 @@
-C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\BakeryShop.dll.config
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\BakeryShop.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\BakeryShop.pdb
@@ -13,6 +12,7 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
@@ -48,6 +48,7 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\VBCSCompiler.exe
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Antlr3.Runtime.dll
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\AutoMapper.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\EntityFramework.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\EntityFramework.SqlServer.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.AspNet.Identity.Core.dll
@@ -61,6 +62,7 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.Cookies.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Newtonsoft.Json.dll
@@ -68,6 +70,7 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Collections.Immutable.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.IO.Compression.dll
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.ValueTuple.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Web.Helpers.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Web.Mvc.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Web.Optimization.dll
@@ -77,6 +80,8 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Web.WebPages.Razor.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\WebGrease.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.ExtendedReflection.dll
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\AutoMapper.pdb
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\AutoMapper.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\EntityFramework.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\EntityFramework.SqlServer.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.AspNet.Identity.Core.xml
@@ -86,7 +91,9 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.ValueTuple.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Web.Helpers.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Web.Mvc.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\System.Web.Razor.xml
@@ -105,12 +112,19 @@ C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\Ba
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Migration13.resources
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Registration.resources
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Registration2.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.HideCategory.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Order.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Order1.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Order2.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Order3.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Order4.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Order5.resources
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.csproj.GenerateResource.cache
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.csproj.CoreCompileInputs.cache
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.csproj.CopyComplete
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.dll
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.pdb
-C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.csprojAssemblyReference.cache
-C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.HideCategory.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.Order6.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.ProductChange.resources
+C:\Users\Duchu\Desktop\inz\engineering-application-project\inz new\BakeryShop\BakeryShop\obj\Debug\BakeryShop.Migrations.ProductChange1.resources
